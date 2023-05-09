@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head'); %>
+<body>
+	<header>
+		<span><%= span %></span>
+		<nav>
+			<a href="/cleaningMedia" target="_blank">Чистящие средства</a>
+			<a href="/personalHygiene" target="_blank">Личная гигиена</a>
+			<a href="/safetyBiochemistry" target="_blank">Безопасное использование</a>
+		</nav>
+		<form method="post" action="/searchTitle">
+			<input type="text" name="titleChemistry" placeholder="Поиск">
+			<button type="submit">Найти</button>
+		</form>
+	</header>
+	<main>
+		<h1>Что из себя представляет проект?</h1>
+		<p>Проект выполнен в научных целях для людей, которые не знакомы с биохимией.</p>
+	</main>
+	<hr class="indent">
+	<footer>
+		<main>
+			<h1>Create by Exqweezey and Minaychik</h1>
+			<h2>Дата создания: 2023.05.08</h2>
+		</main>
+	</footer>
+</body>
+</html>

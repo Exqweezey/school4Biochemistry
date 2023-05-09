@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head'); %>
+<body>
+	<header>
+		<span><%= span %></span>
+		<nav>
+			<a href="/cleaningMedia/kitchen" target="_blank">Кухня</a>
+			<a href="/cleaningMedia/toilet" target="_blank">Санузул</a>
+			<a href="/cleaningMedia/room" target="_blank">Комната</a>
+		</nav>
+		<form method="post" action="/titleCleaningMedia">
+			<input type="text" name="cleaningMedia" placeholder="Поиск">
+			<button type="submit">Найти</button>
+		</form>
+	</header>
+	<main>
+		<h1>В разделе "Чистящие средства" вы можете найти продукцию подходящую по этой тематике и узнать соотношение качества данных товаров.</h1>
+		<p>Найти данную продукцию вы можете при помощи ссылок в шапке сайта и поисковой системы!</p>
+	</main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head'); %>
+<body>
+	<header>
+		<span><%= span %></span>
+		<nav>
+			<a href="/personalHygiene/hair" target="_blank">Волосы</a>
+			<a href="/personalHygiene/body" target="_blank">Тело</a>
+			<a href="/personalHygiene/face" target="_blank">Лицо</a>
+		</nav>
+		<form method="post" action="/titlePersonalHygiene">
+			<input type="text" name="personalHygiene" placeholder="Поиск">
+			<button type="submit">Найти</button>
+		</form>
+	</header>
+	<main>
+		<h1>В разделе "Личная гигиена" вы можете найти продукцию подходящую по этой тематике и узнать соотношение качества данных товаров.</h1>
+		<p>Найти данную продукцию вы можете при помощи ссылок в шапке сайта и поисковой системы!</p>
+	</main>
+</body>
+</html>
